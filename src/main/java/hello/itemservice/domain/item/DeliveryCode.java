@@ -12,4 +12,7 @@ import lombok.Data;
 public class DeliveryCode {
     private String code;
     private String displayName;
+
+    public DeliveryCode(String normal, String 일반_배송) {
+    }
 }
